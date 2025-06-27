@@ -1,6 +1,8 @@
 # AI Carbon Tracker
-
 A Chrome extension that tracks the environmental impact of AI services using a modular provider system.
+
+<img src="https://github.com/user-attachments/assets/9b9bf4ab-0787-4fbb-9372-e5766124e7dc" height="150">
+
 
 ## Overview
 
