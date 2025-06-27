@@ -185,7 +185,21 @@ export class ReactiveStorage {
 			globalStats.carbon += request.carbonImpact;
 			globalStats.water += request.waterImpact;
 			globalStats.totalDuration += request.duration || 0;
-			globalStats.services = todayData.services;
+
+			if (!globalStats.services[request.service]) {
+				globalStats.services[request.service] = {
+					requests: 0,
+					carbon: 0,
+					water: 0,
+					totalDuration: 0,
+				};
+			}
+
+			globalStats.services[request.service].requests += 1;
+			globalStats.services[request.service].carbon += request.carbonImpact;
+			globalStats.services[request.service].water += request.waterImpact;
+			globalStats.services[request.service].totalDuration +=
+				request.duration || 0;
 
 			await browser.storage.local.set({
 				[todayKey]: todayData,
