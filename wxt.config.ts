@@ -93,11 +93,6 @@ export default defineConfig({
 		description: "__MSG_appDescription__",
 		default_locale: "en",
 		permissions: ["storage", "activeTab", "webRequest", "alarms"],
-		host_permissions: [
-			"*://claude.ai/*",
-			"*://chatgpt.com/*",
-			"*://chat.openai.com/*",
-		],
 		action: {
 			default_popup: "popup.html",
 			default_title: "__MSG_defaultTitle__",
@@ -152,55 +147,11 @@ export default defineConfig({
 			// Generate CSS with Panda before build
 			const { execSync } = await import("node:child_process");
 			execSync("panda codegen --silent", { stdio: "inherit" });
-
-			// Generate i18n messages directly in .output
-			console.log("🌐 Generating i18n messages...");
 		},
-
-		// Hook to force host_permissions after complete generation
-		"build:done": async () => {
-			const { writeFile, readFile, access } = await import("node:fs/promises");
-			const manifestPath = ".output/chrome-mv3/manifest.json";
-
-			// Wait a bit to ensure WXT has finished writing the file
-			await new Promise((resolve) => setTimeout(resolve, 100));
-
-			try {
-				// Check that the file exists
-				await access(manifestPath);
-
-				const manifestContent = await readFile(manifestPath, "utf-8");
-				const manifest = JSON.parse(manifestContent);
-
-				console.log("📋 Manifest before modification:", {
-					host_permissions: manifest.host_permissions,
-					web_accessible_resources: manifest.web_accessible_resources,
-				});
-
-				// Improve web_accessible_resources
-				manifest.web_accessible_resources = [
-					{
-						resources: ["popup.html", "icons/*", "*.css", "content-scripts/*"],
-						matches: ["<all_urls>"],
-					},
-				];
-
-				await writeFile(manifestPath, JSON.stringify(manifest, null, 4));
-				console.log(
-					"🎯 Host permissions and web_accessible_resources updated in final manifest",
-				);
-
-				// Check that changes have been saved
-				const updatedContent = await readFile(manifestPath, "utf-8");
-				const updatedManifest = JSON.parse(updatedContent);
-				console.log("✅ Manifest after modification:", {
-					host_permissions: updatedManifest.host_permissions,
-					web_accessible_resources:
-						updatedManifest.web_accessible_resources?.length,
-				});
-			} catch (error) {
-				console.warn("⚠️ Error updating manifest:", error);
-			}
+		"build:manifestGenerated": (wxt, manifest) => {
+			// extract urls from content_script generated provider urls
+			const urls = manifest.content_scripts?.[0].matches || [];
+			manifest.host_permissions = urls;
 		},
 	},
 });
