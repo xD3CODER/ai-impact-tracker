@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e8d5d808-1e39-404a-b7f8-dea672189a84" height="80">
+</p>
+
 # AI Carbon Tracker
+
 A Chrome extension that tracks the environmental impact of AI services using a modular provider system.
 
 <img src="https://github.com/user-attachments/assets/9b9bf4ab-0787-4fbb-9372-e5766124e7dc" height="150">
