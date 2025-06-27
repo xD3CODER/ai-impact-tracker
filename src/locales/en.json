@@ -1,0 +1,315 @@
+{
+	"appDescription": "Measure the carbon and water footprint of your AI requests",
+	"appName": "AI Impact Tracker",
+	"carbon": "Carbon",
+	"confirmReset": "Reset all data?",
+	"defaultTitle": "AI Impact Tracker",
+	"duration": "Duration",
+	"high": "High",
+	"low": "Low",
+	"medium": "Medium",
+	"noActivityGlobal": "No activity recorded",
+	"noActivityTodayService": "No activity today for $1",
+	"reset": "Reset",
+	"resetServiceData": "Reset service data?",
+	"settings": "Settings",
+	"veryHigh": "Very high",
+	"veryLow": "Very low",
+	"water": "Water",
+	"totalDuration": "Total Duration",
+	"visitToStartTracking": "Use a supported AI service to start tracking",
+	"serviceBreakdown": "Service Breakdown",
+	"request": "request",
+	"requests": "requests",
+	"back": "Back",
+	"closeOverlay": "Close overlay",
+	"dailyData": "Daily data",
+	"totalConsumption": "Total consumption",
+	"todayConsumption": "Today's consumption",
+	"toastInPages": "Show notifications in pages",
+	"equivalencesCarbon": {
+		"0": [
+			"negligible impact",
+			"carbon-neutral emission",
+			"almost zero footprint",
+			"zero carbon balance",
+			"minimal environmental impact"
+		],
+		"0_1": [
+			"turn on an LED for 10 seconds",
+			"use a calculator for 1 minute",
+			"write 5 words by hand",
+			"run a digital watch for 1 hour",
+			"use a remote control 10 times"
+		],
+		"0_5": [
+			"perform a Google search",
+			"send an SMS",
+			"turn on an LED for 2 minutes",
+			"use a calculator for 5 minutes",
+			"check the time on your phone 10 times"
+		],
+		"1": [
+			"read an email",
+			"use an LED bulb for 5 minutes",
+			"charge your phone 0.5%",
+			"listen to the radio for 2 minutes",
+			"run an alarm clock for a day"
+		],
+		"2": [
+			"send a plain email",
+			"stream one song",
+			"use a standard bulb for 2 minutes",
+			"charge your phone 1%",
+			"run a desk fan for 1 minute"
+		],
+		"4": [
+			"send an email with a photo",
+			"watch a 30-second video",
+			"use the microwave for 15 seconds",
+			"charge your phone 2%",
+			"run a laptop for 1 minute"
+		],
+		"8": [
+			"watch a 2-minute video",
+			"toast one slice of bread",
+			"use a toaster for 30 seconds",
+			"charge your phone 5%",
+			"boil 250 ml of water"
+		],
+		"15": [
+			"make a 2-minute video call",
+			"use the microwave for 1 minute",
+			"heat a cup of water",
+			"charge your phone 10%",
+			"use a hair dryer for 30 seconds"
+		],
+		"30": [
+			"watch Netflix for 5 minutes",
+			"use the microwave for 2 minutes",
+			"heat 500 ml of water",
+			"use a hair dryer for 1 minute",
+			"run a laptop for 10 minutes"
+		],
+		"50": [
+			"charge your smartphone from 0 to 25%",
+			"watch Netflix for 10 minutes",
+			"iron one garment",
+			"use an automatic coffee machine",
+			"run a laptop for 20 minutes"
+		],
+		"100": [
+			"charge your smartphone from 0 to 50%",
+			"use a laptop for 45 minutes",
+			"watch TV for 30 minutes",
+			"use a vacuum cleaner for 2 minutes",
+			"run a refrigerator for 2 hours"
+		],
+		"200": [
+			"fully charge your smartphone",
+			"use a laptop for 1.5 hours",
+			"watch TV for 1 hour",
+			"use a vacuum cleaner for 5 minutes",
+			"run an oven for 10 minutes"
+		],
+		"500": [
+			"use a laptop all day",
+			"watch TV for 3 hours",
+			"use a dishwasher on eco mode",
+			"run a refrigerator for 12 hours",
+			"use air conditioning for 1 hour"
+		],
+		"1000": [
+			"drive 1 km in a petrol car",
+			"run a full dishwasher cycle",
+			"use a desktop computer for 8 hours",
+			"run a refrigerator for 24 hours",
+			"use air conditioning for 2 hours"
+		],
+		"2000": [
+			"drive 2 km in a petrol car",
+			"dry your laundry in a dryer",
+			"use air conditioning for 4 hours",
+			"run an electric heater for 2 hours",
+			"cook in an electric oven for 2 hours"
+		],
+		"5000": [
+			"drive 5 km in a petrol car",
+			"take a 100 km domestic flight",
+			"use air conditioning all day",
+			"run an electric heater for 5 hours",
+			"produce 1 kg of bread"
+		],
+		"10000": [
+			"drive 10 km in a petrol car",
+			"take a 200 km domestic flight",
+			"heat a house for 8 hours",
+			"produce a cotton T-shirt",
+			"consume 1 kg of beef"
+		],
+		"20000": [
+			"drive 20 km in a petrol car",
+			"take a 400 km domestic flight",
+			"heat a house for 16 hours",
+			"produce a pair of cotton jeans",
+			"consume 2 kg of beef"
+		]
+	},
+	"equivalencesWater": {
+		"0": [
+			"negligible water usage",
+			"minimal hydration impact",
+			"almost no water consumption",
+			"zero water footprint",
+			"micro water usage"
+		],
+		"0_1": [
+			"rinse a spoon",
+			"wash a single grape",
+			"water a small plant drop",
+			"clean a contact lens",
+			"wet your fingertip"
+		],
+		"0_5": [
+			"rinse your mouth",
+			"wash a cherry tomato",
+			"water a small succulent",
+			"clean your glasses",
+			"wet a cotton swab"
+		],
+		"1": [
+			"rinse a small utensil",
+			"wash a strawberry",
+			"water a herb plant",
+			"clean a small surface",
+			"wet a tissue"
+		],
+		"2": [
+			"rinse a knife",
+			"wash an apple",
+			"water a potted plant",
+			"clean your hands briefly",
+			"wet a washcloth corner"
+		],
+		"4": [
+			"rinse a small bowl",
+			"wash a banana",
+			"water a medium plant",
+			"clean a tablet screen",
+			"wet a hand towel"
+		],
+		"8": [
+			"rinse a glass",
+			"wash a large apple",
+			"water a garden plant",
+			"clean your face",
+			"wet a small sponge"
+		],
+		"15": [
+			"rinse a small plate",
+			"wash a few vegetables",
+			"water a small bush",
+			"brush your teeth",
+			"wet a washcloth"
+		],
+		"30": [
+			"rinse a dinner plate",
+			"wash a handful of vegetables",
+			"water a small tree",
+			"wash your face",
+			"wet a bath towel corner"
+		],
+		"50": [
+			"rinse a large plate",
+			"wash a bag of salad",
+			"water a garden bed",
+			"wash your hands and face",
+			"wet a small bath towel"
+		],
+		"100": [
+			"rinse a large bowl",
+			"wash vegetables for cooking",
+			"water a flower bed",
+			"wash your hair briefly",
+			"wet a large towel"
+		],
+		"200": [
+			"rinse dishes for 2 people",
+			"wash a week's fruit",
+			"water a vegetable garden",
+			"take a very quick shower",
+			"wet multiple towels"
+		],
+		"250": [
+			"drink a glass of water",
+			"make a cup of tea",
+			"rinse a cooking pot",
+			"wash your face and hands",
+			"wet a bath towel"
+		],
+		"500": [
+			"empty a standard water bottle",
+			"fill your water bottle",
+			"rinse dishes for a meal",
+			"wash vegetables for dinner",
+			"water a small lawn area"
+		],
+		"1000": [
+			"fill a sports bottle",
+			"fill a carafe",
+			"rinse a full load of dishes",
+			"wash a car windshield",
+			"water a medium garden"
+		],
+		"2000": [
+			"fill a large water bottle",
+			"make several cups of tea",
+			"pre-rinse dishes before dishwasher",
+			"wash a bicycle",
+			"water a large garden bed"
+		],
+		"5000": [
+			"fill multiple water bottles",
+			"make tea for a group",
+			"hand wash dishes for 4 people",
+			"wash a small car",
+			"water a lawn section"
+		],
+		"10000": [
+			"fill a water cooler jug",
+			"make coffee for an office",
+			"wash dishes for a dinner party",
+			"wash a motorcycle",
+			"water a large flower garden"
+		],
+		"20000": [
+			"fill multiple large containers",
+			"make beverages for an event",
+			"wash dishes for a large gathering",
+			"wash a car exterior",
+			"water a small lawn"
+		]
+	},
+	"howItWorks": "🧐 How does it work?",
+	"privacyFirst": "Our extension is designed with your privacy as an absolute priority",
+	"dataStaysLocal": "Everything stays on your device",
+	"dataStaysLocalDesc": "No data is sent to servers. Calculations & storage are performed locally.",
+	"noContentAccess": "No access to content",
+	"noContentAccessDesc": "We only detect the type and number of requests. The content of your conversations never leaves your device",
+	"transparentTech": "Transparent technical operation",
+	"transparentTechDesc": "The extension analyzes network requests to supported AI services to estimate your carbon impact, without spying on your exchanges",
+	"appInfoDesc": "Measure the carbon and water footprint of your AI requests",
+	"opensourceProject": "🌱 Opensource project",
+	"resetDataTitle": "Reset data",
+	"resetDataDesc": "Deletes all recorded statistics",
+	"version": "Version",
+	"notifications": "🔔 Notifications",
+	"toastInPagesLabel": "Toast in AI pages",
+	"toastInPagesDesc": "Shows notifications on ChatGPT, Claude, etc.",
+	"supportedProviders": "🤖 Supported Providers",
+	"sources": "Sources:",
+	"invalidContext": "Invalid context",
+	"invalidMessage": "Invalid message",
+	"unknownMessageType": "Unknown message type",
+	"internalError": "Internal error"
+}

@@ -1,0 +1,30 @@
+.idea/
+*.lock
+.output/
+.wxt/
+node_modules/
+
+## Panda CSS
+styled-system/
+styled-system-studio/
+
+## Fichiers générés automatiquement
+bundle-stats.json
+bundle-analysis.json
+optimization-report.json
+
+## Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+.env
+.env.local
+
+## Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Cache
+.cache/
