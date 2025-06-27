@@ -1,0 +1,315 @@
+{
+	"appDescription": "Mesurez l'empreinte carbone et hydrique de vos requêtes IA",
+	"appName": "IA Impact Tracker",
+	"carbon": "Carbone",
+	"confirmReset": "Réinitialiser toutes les données ?",
+	"defaultTitle": "IA Impact Tracker",
+	"duration": "Durée",
+	"high": "Élevé",
+	"low": "Faible",
+	"medium": "Moyen",
+	"noActivityGlobal": "Aucune activité enregistrée",
+	"noActivityTodayService": "Aucune activité aujourd'hui pour $1",
+	"reset": "Réinitialiser",
+	"resetServiceData": "Réinitialiser les données du service ?",
+	"settings": "Paramètres",
+	"veryHigh": "Très élevé",
+	"veryLow": "Très faible",
+	"water": "Eau",
+	"totalDuration": "Durée totale",
+	"visitToStartTracking": "Utilisez un service IA supporté pour commencer le suivi",
+	"serviceBreakdown": "Répartition par service",
+	"request": "requête",
+	"requests": "requêtes",
+	"back": "Retour",
+	"closeOverlay": "Fermer l'overlay",
+	"dailyData": "Données quotidiennes",
+	"totalConsumption": "Consommation totale",
+	"todayConsumption": "Consommation du jour",
+	"toastInPages": "Afficher les notifications dans les pages",
+	"equivalencesCarbon": {
+		"0": [
+			"impact négligeable",
+			"émission neutre en carbone",
+			"empreinte quasi-nulle",
+			"bilan carbone nul",
+			"impact environnemental minimal"
+		],
+		"0_1": [
+			"allumer une LED pendant 10 secondes",
+			"utiliser une calculatrice pendant 1 minute",
+			"écrire 5 mots à la main",
+			"faire fonctionner une montre numérique pendant 1 heure",
+			"utiliser une télécommande 10 fois"
+		],
+		"0_5": [
+			"effectuer une recherche Google",
+			"envoyer un SMS",
+			"allumer une LED pendant 2 minutes",
+			"utiliser une calculatrice pendant 5 minutes",
+			"regarder l'heure sur votre téléphone 10 fois"
+		],
+		"1": [
+			"lire un email",
+			"utiliser une ampoule LED pendant 5 minutes",
+			"charger votre téléphone de 0,5%",
+			"écouter la radio pendant 2 minutes",
+			"faire fonctionner un réveil pendant une journée"
+		],
+		"2": [
+			"envoyer un email simple",
+			"écouter une chanson en streaming",
+			"utiliser une ampoule standard pendant 2 minutes",
+			"charger votre téléphone de 1%",
+			"faire fonctionner un ventilateur de bureau pendant 1 minute"
+		],
+		"4": [
+			"envoyer un email avec une photo",
+			"regarder une vidéo de 30 secondes",
+			"utiliser le micro-ondes pendant 15 secondes",
+			"charger votre téléphone de 2%",
+			"faire fonctionner un ordinateur portable pendant 1 minute"
+		],
+		"8": [
+			"regarder une vidéo de 2 minutes",
+			"griller une tranche de pain",
+			"utiliser un grille-pain pendant 30 secondes",
+			"charger votre téléphone de 5%",
+			"faire bouillir 250 ml d'eau"
+		],
+		"15": [
+			"faire un appel vidéo de 2 minutes",
+			"utiliser le micro-ondes pendant 1 minute",
+			"chauffer une tasse d'eau",
+			"charger votre téléphone de 10%",
+			"utiliser un sèche-cheveux pendant 30 secondes"
+		],
+		"30": [
+			"regarder Netflix pendant 5 minutes",
+			"utiliser le micro-ondes pendant 2 minutes",
+			"chauffer 500 ml d'eau",
+			"utiliser un sèche-cheveux pendant 1 minute",
+			"faire fonctionner un ordinateur portable pendant 10 minutes"
+		],
+		"50": [
+			"charger votre smartphone de 0 à 25%",
+			"regarder Netflix pendant 10 minutes",
+			"repasser un vêtement",
+			"utiliser une machine à café automatique",
+			"faire fonctionner un ordinateur portable pendant 20 minutes"
+		],
+		"100": [
+			"charger votre smartphone de 0 à 50%",
+			"utiliser un ordinateur portable pendant 45 minutes",
+			"regarder la télé pendant 30 minutes",
+			"utiliser un aspirateur pendant 2 minutes",
+			"faire fonctionner un réfrigérateur pendant 2 heures"
+		],
+		"200": [
+			"charger complètement votre smartphone",
+			"utiliser un ordinateur portable pendant 1,5 heure",
+			"regarder la télé pendant 1 heure",
+			"utiliser un aspirateur pendant 5 minutes",
+			"faire fonctionner un four pendant 10 minutes"
+		],
+		"500": [
+			"utiliser un ordinateur portable toute la journée",
+			"regarder la télé pendant 3 heures",
+			"utiliser un lave-vaisselle en mode éco",
+			"faire fonctionner un réfrigérateur pendant 12 heures",
+			"utiliser la climatisation pendant 1 heure"
+		],
+		"1000": [
+			"conduire 1 km en voiture essence",
+			"faire un cycle complet de lave-vaisselle",
+			"utiliser un ordinateur de bureau pendant 8 heures",
+			"faire fonctionner un réfrigérateur pendant 24 heures",
+			"utiliser la climatisation pendant 2 heures"
+		],
+		"2000": [
+			"conduire 2 km en voiture essence",
+			"sécher votre linge dans un sèche-linge",
+			"utiliser la climatisation pendant 4 heures",
+			"faire fonctionner un radiateur électrique pendant 2 heures",
+			"cuisiner au four électrique pendant 2 heures"
+		],
+		"5000": [
+			"conduire 5 km en voiture essence",
+			"prendre un vol domestique de 100 km",
+			"utiliser la climatisation toute la journée",
+			"faire fonctionner un radiateur électrique pendant 5 heures",
+			"produire 1 kg de pain"
+		],
+		"10000": [
+			"conduire 10 km en voiture essence",
+			"prendre un vol domestique de 200 km",
+			"chauffer une maison pendant 8 heures",
+			"produire un t-shirt en coton",
+			"consommer 1 kg de bœuf"
+		],
+		"20000": [
+			"conduire 20 km en voiture essence",
+			"prendre un vol domestique de 400 km",
+			"chauffer une maison pendant 16 heures",
+			"produire un jean en coton",
+			"consommer 2 kg de bœuf"
+		]
+	},
+	"equivalencesWater": {
+		"0": [
+			"usage d'eau négligeable",
+			"impact hydrique minimal",
+			"consommation d'eau quasi-nulle",
+			"empreinte hydrique nulle",
+			"micro usage d'eau"
+		],
+		"0_1": [
+			"rincer une cuillère",
+			"laver un grain de raisin",
+			"arroser une plante d'une goutte",
+			"nettoyer une lentille de contact",
+			"mouiller le bout du doigt"
+		],
+		"0_5": [
+			"se rincer la bouche",
+			"laver une tomate cerise",
+			"arroser une petite succulente",
+			"nettoyer ses lunettes",
+			"mouiller un coton-tige"
+		],
+		"1": [
+			"rincer un petit ustensile",
+			"laver une fraise",
+			"arroser une plante aromatique",
+			"nettoyer une petite surface",
+			"mouiller un mouchoir"
+		],
+		"2": [
+			"rincer un couteau",
+			"laver une pomme",
+			"arroser une plante en pot",
+			"se laver brièvement les mains",
+			"mouiller le coin d'un gant"
+		],
+		"4": [
+			"rincer un petit bol",
+			"laver une banane",
+			"arroser une plante moyenne",
+			"nettoyer un écran de tablette",
+			"mouiller une serviette à main"
+		],
+		"8": [
+			"rincer un verre",
+			"laver une grosse pomme",
+			"arroser une plante de jardin",
+			"se laver le visage",
+			"mouiller une petite éponge"
+		],
+		"15": [
+			"rincer une petite assiette",
+			"laver quelques légumes",
+			"arroser un petit buisson",
+			"se brosser les dents",
+			"mouiller un gant de toilette"
+		],
+		"30": [
+			"rincer une assiette à dîner",
+			"laver une poignée de légumes",
+			"arroser un petit arbre",
+			"se laver le visage",
+			"mouiller le coin d'une serviette de bain"
+		],
+		"50": [
+			"rincer une grande assiette",
+			"laver un sac de salade",
+			"arroser un parterre de jardin",
+			"se laver les mains et le visage",
+			"mouiller une petite serviette de bain"
+		],
+		"100": [
+			"rincer un grand bol",
+			"laver des légumes pour cuisiner",
+			"arroser un parterre de fleurs",
+			"se laver brièvement les cheveux",
+			"mouiller une grande serviette"
+		],
+		"200": [
+			"rincer la vaisselle pour 2 personnes",
+			"laver les fruits d'une semaine",
+			"arroser un potager",
+			"prendre une douche très rapide",
+			"mouiller plusieurs serviettes"
+		],
+		"250": [
+			"boire un verre d'eau",
+			"faire une tasse de thé",
+			"rincer une casserole",
+			"se laver le visage et les mains",
+			"mouiller une serviette de bain"
+		],
+		"500": [
+			"vider une bouteille d'eau standard",
+			"remplir votre bouteille d'eau",
+			"rincer la vaisselle d'un repas",
+			"laver des légumes pour le dîner",
+			"arroser une petite zone de pelouse"
+		],
+		"1000": [
+			"remplir une bouteille de sport",
+			"remplir une carafe",
+			"rincer une pleine charge de vaisselle",
+			"laver un pare-brise de voiture",
+			"arroser un jardin moyen"
+		],
+		"2000": [
+			"remplir une grande bouteille d'eau",
+			"faire plusieurs tasses de thé",
+			"pré-rincer la vaisselle avant le lave-vaisselle",
+			"laver un vélo",
+			"arroser un grand parterre de jardin"
+		],
+		"5000": [
+			"remplir plusieurs bouteilles d'eau",
+			"faire du thé pour un groupe",
+			"laver la vaisselle à la main pour 4 personnes",
+			"laver une petite voiture",
+			"arroser une section de pelouse"
+		],
+		"10000": [
+			"remplir un bidon de fontaine à eau",
+			"faire du café pour un bureau",
+			"laver la vaisselle d'un dîner",
+			"laver une moto",
+			"arroser un grand jardin de fleurs"
+		],
+		"20000": [
+			"remplir plusieurs grands contenants",
+			"faire des boissons pour un événement",
+			"laver la vaisselle d'un grand rassemblement",
+			"laver l'extérieur d'une voiture",
+			"arroser une petite pelouse"
+		]
+	},
+	"howItWorks": "🧐 Comment ça marche ?",
+	"privacyFirst": "Notre extension est conçue avec votre confidentialité comme priorité absolue",
+	"dataStaysLocal": "Tout reste sur votre appareil",
+	"dataStaysLocalDesc": "Aucune donnée n'est envoyée à des serveurs. Les calculs et le stockage sont effectués localement.",
+	"noContentAccess": "Aucun accès au contenu",
+	"noContentAccessDesc": "Nous détectons uniquement le type et le nombre de requêtes. Le contenu de vos conversations ne quitte jamais votre appareil",
+	"transparentTech": "Fonctionnement technique transparent",
+	"transparentTechDesc": "L'extension analyse les requêtes réseau vers les services IA supportés pour estimer votre impact carbone, sans espionner vos échanges",
+	"appInfoDesc": "Mesurez l'empreinte carbone et hydrique de vos requêtes IA",
+	"opensourceProject": "🌱 Projet opensource",
+	"resetDataTitle": "Réinitialiser les données",
+	"resetDataDesc": "Supprime toutes les statistiques enregistrées",
+	"version": "Version",
+	"notifications": "🔔 Notifications",
+	"toastInPagesLabel": "Notification sur les pages IA",
+	"toastInPagesDesc": "Affiche les notifications sur ChatGPT, Claude, etc.",
+	"supportedProviders": "🤖 Providers Supportés",
+	"sources": "Sources :",
+	"invalidContext": "Contexte invalide",
+	"invalidMessage": "Message invalide",
+	"unknownMessageType": "Type de message inconnu",
+	"internalError": "Erreur interne"
+}

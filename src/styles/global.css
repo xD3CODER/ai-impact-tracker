@@ -1,0 +1,4 @@
+/* src/styles/overlay.css - CSS dédié pour l'overlay */
+
+/* Import des directives Panda CSS */
+@layer reset, base, tokens, recipes, utilities;
