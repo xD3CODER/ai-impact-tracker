@@ -20,14 +20,22 @@ This extension monitors AI service usage and calculates carbon and water impact 
 - **[Technical Overview](./docs/technical.md)** - Request interception and calculations
 - **[Equivalences](./docs/equivalences.md)** - User-friendly impact comparisons system
 
-## Quick Start
+## Quick Start (Development)
 
-1. **Development**: `bun dev`
-2. **Build**: `bun build`
-3. **Load**: Chrome Extensions → Load unpacked → `.output/chrome-mv3/` folder
+1. **Install dependencies**: `bun install`
+2. **Start development mode**: `bun dev`
+3. **Automatic browser launch**: A browser will open automatically with the extension installed
+4. **Hot reload**: Code changes are automatically reloaded in the extension
 
 ## Adding a New AI Service
 
 Create a provider configuration in `src/config/providers/yourservice.ts` and the extension will automatically detect and support it.
 
 See [Providers](./docs/providers.md) for details.
+
+## Roadmap & Future Enhancements
+
+- **Monthly reports**: Automated monthly carbon/water impact summaries
+- **Goal setting**: Personal carbon reduction targets with progress tracking
+- **More providers**: Support for emerging AI services and APIs
+- **Model-specific tracking**: Different impact calculations per AI model
