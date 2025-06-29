@@ -1,1 +1,3 @@
 bun run i18n:validate
+bun run format
+bun run lint
