@@ -92,7 +92,7 @@ export default defineConfig({
 		name: "__MSG_appName__",
 		description: "__MSG_appDescription__",
 		default_locale: "en",
-		permissions: ["storage", "activeTab", "webRequest", "alarms"],
+		permissions: ["storage", "tabs", "webRequest"],
 		action: {
 			default_popup: "popup.html",
 			default_title: "__MSG_defaultTitle__",
