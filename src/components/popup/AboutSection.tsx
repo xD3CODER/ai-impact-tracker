@@ -3,9 +3,16 @@ import Icon from "@/icons/icon32.png";
 import type React from "react";
 import { css } from "styled-system/css";
 import { actionButton } from "styled-system/patterns";
+import { browser } from "wxt/browser";
 
 const AboutSection: React.FC = () => {
 	const { onReset } = useAppContext();
+
+	const handleGithubClick = () => {
+		browser.tabs.create({
+			url: "https://github.com/xD3CODER/ai-impact-tracker",
+		});
+	};
 
 	const appInfoContainerClasses = css({
 		marginBottom: "4",
@@ -94,6 +101,15 @@ const AboutSection: React.FC = () => {
 		margin: "0",
 	});
 
+	const githubLinkClasses = css({
+		color: "blue.500",
+		cursor: "pointer",
+		textDecoration: "underline",
+		"&:hover": {
+			color: "blue.600",
+		},
+	});
+
 	return (
 		<div>
 			{/* App information */}
@@ -114,7 +130,15 @@ const AboutSection: React.FC = () => {
 
 				<div className={opensourceContainerClasses}>
 					<span className={opensourceBadgeClasses}>
-						{i18n.t("opensourceProject")}
+						{i18n.t("opensourceProject")} -{" "}
+						<button
+							type={"button"}
+							className={githubLinkClasses}
+							onClick={handleGithubClick}
+							aria-label="Ouvrir le dépôt GitHub dans un nouvel onglet"
+						>
+							Github
+						</button>
 					</span>
 				</div>
 			</div>
