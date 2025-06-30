@@ -174,7 +174,7 @@ export class EquivalenceManager {
 			messages.push(`💧 ${EquivalenceManager.capitalize(waterEquivalence)}`);
 		}
 		if (carbonEquivalence && carbonEquivalence !== "---") {
-			messages.push(`⚡ ${EquivalenceManager.capitalize(carbonEquivalence)}`);
+			messages.push(`🌎 ${EquivalenceManager.capitalize(carbonEquivalence)}`);
 		}
 		return messages;
 	}

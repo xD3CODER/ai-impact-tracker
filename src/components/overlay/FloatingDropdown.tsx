@@ -191,7 +191,7 @@ const FloatingDropdown: React.FC<FloatingDropdownProps> = ({
 										minValueForLoading={providerMinValues.carbon}
 										formatValue={(value: number) => formatCarbon(value)}
 									/>
-									⚡<span className={css({ color: "primary.500" })}>•</span>
+									🌎<span className={css({ color: "primary.500" })}>•</span>
 									{/* 🎯 ANIMATED WATER */}
 									<AnimatedLoadingCounter
 										realValue={serviceStats.water}

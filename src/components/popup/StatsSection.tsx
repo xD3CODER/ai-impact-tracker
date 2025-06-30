@@ -63,7 +63,7 @@ const StatsSection: React.FC = () => {
 
 				<StatCard
 					value={formatCarbon(stats.carbon)}
-					label={`⚡ ${i18n.t("carbon")}`}
+					label={`🌎 ${i18n.t("carbon")}`}
 				/>
 
 				<StatCard

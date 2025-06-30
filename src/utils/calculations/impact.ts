@@ -59,7 +59,7 @@ export function calculateAdaptiveImpact(
 	// If duration is less than simple threshold, return minimum impact
 	if (durationSeconds <= thresholds.simple) {
 		logger.info(
-			`⚡ Simple request (${durationSeconds}s ≤ ${thresholds.simple}s) → min impact: ${min}`,
+			`🌎 Simple request (${durationSeconds}s ≤ ${thresholds.simple}s) → min impact: ${min}`,
 		);
 		return min;
 	}

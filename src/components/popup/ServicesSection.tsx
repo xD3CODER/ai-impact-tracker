@@ -135,7 +135,7 @@ const ServicesSection: React.FC = () => {
 
 								<StatCard
 									value={formatCarbon(serviceStats.carbon)}
-									label={`⚡ ${i18n.t("carbon")}`}
+									label={`🌎 ${i18n.t("carbon")}`}
 								/>
 
 								<StatCard

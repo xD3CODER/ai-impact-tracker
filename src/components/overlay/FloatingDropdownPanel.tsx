@@ -135,7 +135,7 @@ const FloatingDropdownPanel: React.FC<FloatingDropdownPanelProps> = ({
 
 						<StatCard
 							value={formatCarbon(serviceStats.carbon)}
-							label={`⚡ ${i18n.t("carbon")}`}
+							label={`🌎 ${i18n.t("carbon")}`}
 							dynamicColors={dynamicColors}
 						/>
 						<StatCard
