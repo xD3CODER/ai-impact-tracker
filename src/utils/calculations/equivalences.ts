@@ -158,6 +158,10 @@ export class EquivalenceManager {
 		return result.value !== "0" ? `${result.value} ${result.unit}` : "---";
 	}
 
+	static capitalize(string: string): string {
+		return string.charAt(0).toUpperCase() + string.slice(1);
+	}
+
 	/**
 	 * Generates impact messages for display
 	 */
@@ -167,10 +171,10 @@ export class EquivalenceManager {
 	): string[] {
 		const messages = [];
 		if (waterEquivalence && waterEquivalence !== "---") {
-			messages.push(`💧 ${waterEquivalence}`);
+			messages.push(`💧 ${EquivalenceManager.capitalize(waterEquivalence)}`);
 		}
 		if (carbonEquivalence && carbonEquivalence !== "---") {
-			messages.push(`⚡ ${carbonEquivalence}`);
+			messages.push(`⚡ ${EquivalenceManager.capitalize(carbonEquivalence)}`);
 		}
 		return messages;
 	}

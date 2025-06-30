@@ -39,7 +39,6 @@ const ImpactMessageCard: React.FC<ImpactMessageCardProps> = ({
 	const messageClasses = css({
 		fontFamily: "subtitle",
 		fontSize: "xs",
-		textTransform: "capitalize",
 		color: "primary.500",
 		fontWeight: "lighter",
 		lineHeight: "1.3",
