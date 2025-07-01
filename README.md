@@ -3,15 +3,16 @@
 </p>
 
 # AI Carbon Tracker
-
 A web extension that tracks the environmental impact of AI services using a modular provider system.
 
-<img src="https://github.com/user-attachments/assets/9b9bf4ab-0787-4fbb-9372-e5766124e7dc" height="150">
+[![Chrome Web Store](https://github.com/user-attachments/assets/059b818c-ee49-4aff-9e8d-c1f8368dc649)](https://chromewebstore.google.com/detail/ia-impact-tracker/oflmfafohnjcohcalmfjkimpnbkdkpnf)
 
 
 ## Overview
 
 This extension monitors AI service usage and calculates carbon and water impact in real-time using adaptive calculations based on request duration.
+
+<img src="https://github.com/user-attachments/assets/9b9bf4ab-0787-4fbb-9372-e5766124e7dc" height="150">
 
 ## Key Concepts
 
