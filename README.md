@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/e8d5d808-1e39-404a-b7f8-dea672189a84" height="80">
 </p>
 
-# AI Carbon Tracker
+# AI Impact Tracker
 A web extension that tracks the environmental impact of AI services using a modular provider system.
 
 [![Chrome Web Store](https://github.com/user-attachments/assets/059b818c-ee49-4aff-9e8d-c1f8368dc649)](https://chromewebstore.google.com/detail/ia-impact-tracker/oflmfafohnjcohcalmfjkimpnbkdkpnf)
