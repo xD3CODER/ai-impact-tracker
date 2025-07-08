@@ -6,7 +6,7 @@
 A web extension that tracks the environmental impact of AI services using a modular provider system.
 
 [![Chrome Web Store](https://github.com/user-attachments/assets/059b818c-ee49-4aff-9e8d-c1f8368dc649)](https://chromewebstore.google.com/detail/ia-impact-tracker/oflmfafohnjcohcalmfjkimpnbkdkpnf)
-
+[![Firefox Addon](https://github.com/user-attachments/assets/7f9ae106-bb81-4dcc-befd-158e84d71107)](https://addons.mozilla.org/fr/firefox/addon/ai-impact-tracker/)
 
 ## Overview
 
