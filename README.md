@@ -14,6 +14,10 @@ This extension monitors AI service usage and calculates carbon and water impact 
 
 <img src="https://github.com/user-attachments/assets/9b9bf4ab-0787-4fbb-9372-e5766124e7dc" height="150">
 
+## Currently supported AI providers
+- Claude https://claude.ai/
+- ChatGPT https://chatgpt.com/
+
 ## Key Concepts
 
 - **[Providers](./docs/providers.md)** - Modular configurations for different AI services

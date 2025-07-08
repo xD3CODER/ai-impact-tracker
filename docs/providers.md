@@ -195,18 +195,6 @@ registerProvider({
 });
 ```
 
-## Current Providers
-
-**ChatGPT**
-- Sites: `chatgpt.com`, `chat.openai.com`
-- Impact: 2.5-8.0 gCO₂e, 60-180ml water (adaptive)
-- Thresholds: Simple < 2s, Complex > 15s
-
-**Claude**  
-- Sites: `claude.ai`
-- Impact: 1.8-6.5 gCO₂e, 45-150ml water (adaptive)
-- Thresholds: Simple < 3s, Complex > 20s
-
 ## Adding a New Provider
 
 1. Create `src/config/providers/yourservice.ts`
