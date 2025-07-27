@@ -1,6 +1,6 @@
 {
 	"name": "ai-impact-tracker",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Extension Chrome pour mesurer l'empreinte carbone et hydrique des requêtes IA",
 	"private": true,
 	"type": "module",
