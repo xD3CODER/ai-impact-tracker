@@ -88,29 +88,6 @@ export class ReactiveStorage {
 	}
 
 	/**
-	 * Configure a global error handler to intercept invalidated context errors
-	 */
-	private static setupGlobalErrorHandler(): void {
-		const originalConsoleError = console.error;
-
-		console.error = (...args: any[]) => {
-			const errorMessage = String(args[0] || "");
-
-			if (errorMessage.includes("Extension context invalidated")) {
-				return;
-			}
-
-			return originalConsoleError.apply(console, args);
-		};
-
-		logger.log("✅ Global error handler configured");
-	}
-
-	private static unsubscribeStorage(): void {
-		logger.log("📪 Storage unsubscribed");
-	}
-
-	/**
 	 * Notify all listeners
 	 */
 	private static notifyListeners() {

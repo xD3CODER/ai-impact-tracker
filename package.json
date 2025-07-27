@@ -20,10 +20,10 @@
 		"clean": "rimraf ./.output && rimraf ./.wxt"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.1.1",
+		"@biomejs/biome": "2.1.2",
 		"@types/react": "^19.1.8",
 		"@types/react-dom": "^19.1.6",
-		"cssnano": "^7.0.7",
+		"cssnano": "^7.1.0",
 		"autoprefixer": "^10.4.21",
 		"husky": "^9.1.7",
 		"react": "^19.1.0",
@@ -43,7 +43,7 @@
 		"panda-css": "^1.0.0",
 		"preact": "^10.26.9",
 		"preact-render-to-string": "^6.5.13",
-		"react-router-dom": "^7.6.3",
+		"react-router-dom": "^7.7.1",
 		"react-shadow": "^20.6.0"
 	},
 	"engines": {
