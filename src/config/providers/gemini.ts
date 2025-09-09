@@ -8,12 +8,10 @@ export const geminiProvider: Provider = {
 	name: "Google Gemini",
 	hostnames: ["gemini.google.com", "bard.google.com"],
 	metrics: {
-		carbon: createAdaptiveImpact(1.5, 5.5),
-		water: createAdaptiveImpact(40, 120),
+		carbon: createAdaptiveImpact(0.02, 0.07),
+		water: createAdaptiveImpact(0.12, 0.34),
 		sources: [
-			"Google Environmental Report (2023)",
-			"Carbon Emissions and Large Neural Network Training (Google Research)",
-			"Estimated based on Google's TPU efficiency and 100% renewable energy matching",
+			"Google Environmental Report (2025)",
 		],
 		durationThresholds: {
 			simple: 2.5,
